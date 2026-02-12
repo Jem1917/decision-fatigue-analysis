@@ -48,12 +48,17 @@ Analyzed fatigue level breakdown across population
 Identified skewness and potential transformations
 
 3. Statistical Hypothesis Testing
+
 Performed three key statistical tests:
 TestHypothesisResultOne-Way ANOVAFatigue scores differ across fatigue levelsp < 0.001 ✅Independent T-TestAdequate sleep reduces fatigue significantlyp < 0.001 ✅Pearson CorrelationStress correlates with fatigue scorer = 0.52, p < 0.001 ✅
-4. Machine Learning Modeling
+
+5. Machine Learning Modeling
+
 Built and compared two predictive models:
 ModelR2 ScoreRMSEPerformanceLinear Regression0.95927.4055Strong baseline; captures 95%+ of varianceRandom Forest0.99771.7587Best model ✅; near-perfect non-linear fit
-5. Feature Importance Analysis
+
+7. Feature Importance Analysis
+
 Identified top predictors using Random Forest feature importance:
 1. Hours_Awake (51.3%) ⭐⭐⭐
 2. Decisions_Made (36.1%) ⭐⭐⭐
@@ -62,6 +67,7 @@ Identified top predictors using Random Forest feature importance:
 5. Task_Switches (0.8%) ⭐
 
 🔍 Key Findings
+
 Statistical Insights
 Strong Correlations (|r| > 0.5):
 
@@ -69,7 +75,8 @@ Hours_Awake ↔ Decision_Fatigue_Score: r = 0.954 (very strong positive)
 Decisions_Made ↔ Decision_Fatigue_Score: r = 0.953 (very strong positive)
 Sleep_Hours_Last_Night ↔ Decision_Fatigue_Score: r = -0.522 (moderate negative)
 
-🔍 Key Discoveries (Updated)
+🔍 Key Discoveries
+
 Dominant Predictors: The top 2 factors (Hours_Awake and Decisions_Made) account for over 87% of the model's predictive power.
 The "Sleep Tax": Inadequate sleep (<7 hours) leads to an average fatigue score of 47.63, compared to 15.86 for those with adequate sleep—a significant increase of 31.77 points.
 Hourly Fatigue Growth: According to the linear regression analysis, every additional hour awake raises the fatigue score by approximately 7.11 points.
@@ -77,8 +84,8 @@ Stress Multiplier: Stress levels show a moderate positive correlation (r = 0.52)
 
 
 
-
 💼 Business Recommendations
+
 Based on data-driven insights, recommended strategies include:
 🌙 Sleep Optimization
 
@@ -185,7 +192,9 @@ This project showcases expertise in:
 
 
 📝 Resume Highlights
+
 Key achievements from this project:
+
 Analyzed 25,000 behavioral records to identify decision fatigue patterns using Python, achieving 99.7% prediction accuracy with Random Forest model
 Performed statistical hypothesis testing (ANOVA, t-tests) to validate relationships between sleep duration, cognitive load, and decision quality (p < 0.001)
 Generated 9 data visualizations and feature importance analysis revealing hours awake and cumulative decisions as top predictors (51.3% and 36.1% importance respectively)
@@ -193,10 +202,14 @@ Provided actionable recommendations reducing decision errors by 25-40% through d
 
 
 📜 License
+
 This project is licensed under the MIT License.
 
+
 👤 Contact
+
 Praisie Jemimah
+
 MSc Statistics Graduate
 
 
@@ -208,6 +221,7 @@ Tools: Python data science ecosystem
 
 
 ⭐ If you found this project helpful, please consider giving it a star!
+
 Looking for Data Analyst opportunities - Open to collaborations and feedback!
 
 Last Updated: February 2026
