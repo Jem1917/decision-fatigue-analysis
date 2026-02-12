@@ -1,6 +1,10 @@
 # decision-fatigue-analysis
+
+🧠 Human Decision Fatigue Behavioral Analysis
 A comprehensive data analysis project investigating cognitive decision fatigue patterns using statistical testing and machine learning. This project achieves 92% prediction accuracy in identifying decision fatigue levels based on behavioral and physiological factors.
+
 📊 Project Overview
+
 Decision fatigue—the deteriorating quality of decisions after extended decision-making sessions—affects productivity, health, and well-being across industries. This project analyzes 25,000 behavioral records to:
 
 Identify key predictors of decision fatigue
@@ -11,6 +15,7 @@ Provide data-driven recommendations for fatigue mitigation
 Business Impact: Insights from this analysis could reduce decision errors by 25-40% through optimized work schedules and fatigue monitoring.
 
 📁 Dataset Information
+
 Source: Kaggle - Human Decision Fatigue Behavioral Dataset
 Size: 25,000 records × 13 features
 Key Features:
